@@ -29,30 +29,38 @@ const handlePlayerName = (value) => {
   return (
     <>
     <Header />
-    <View>
+    <View >
 
       <MaterialCommunityIcons
         name='information'
         size={90}
         color='steelblue'
+        style={styles.icon1}
       />
 
+     </View>
+
+ <View style={styles.text1}>
       {!hasPlayerName ?
     <>
-     <Text> For scoreboard enter your name...</Text>
-     <TextInput
+
+  
+     <Text style={styles.text2}> For scoreboard enter your name...</Text>
+     <TextInput 
       
        onChangeText={setPlayerName}
        autoFocus={true}
+       style={styles.text3}
      />
 
-      <Pressable
+      <Pressable 
+      style={styles.text4}
       onPress={() => handlePlayerName(playerName)}>
         <Text>OK</Text>
       </Pressable>
       </>
       :
-
+      
       <>
       <Text>Rules of the game</Text>
       <Text multiline="true">

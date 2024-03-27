@@ -12,7 +12,7 @@ export default  styles = StyleSheet.create({
     flexDirection: 'row',
   },
   footer: {
-    marginTop: 20,
+    marginTop: 400,
     backgroundColor: 'skyblue',
     flexDirection: 'row'
   },
@@ -64,5 +64,53 @@ export default  styles = StyleSheet.create({
   buttonText: {
     color:"#2B2B52",
     fontSize: 20
-  }
+  },
+
+  icon1: {
+    position: 'absolute', 
+    top: 14, 
+    left: 140,
+
+  }, 
+
+  text1: {
+    
+    position: 'absolute', 
+    top: 250, 
+    left: 0,
+    
+
+  }, 
+
+  text2: {
+    fontSize: 20, 
+    marginLeft: 20,
+    
+  },
+
+  text3: {
+    fontSize: 20, 
+    marginLeft: 20,
+    marginTop: 30,
+    borderWidth: 1,
+    padding: 10,
+    borderRadius: 8,
+    
+  }, 
+
+  text4: {
+    fontSize: 20, 
+    marginLeft: 20,
+    marginTop: 30,
+    borderWidth: 1,
+    padding: 10,
+    borderRadius: 8, 
+    alignItems: 'center', 
+    backgroundColor: '#9BDDFF', 
+    
+  }, 
+
+
+
+
 });
