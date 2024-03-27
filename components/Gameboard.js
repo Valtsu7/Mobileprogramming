@@ -140,9 +140,9 @@ export default function Gameboard({ navigation, route }) {
                 <Container>
                     <Row>{row}</Row>
                 </Container>
-                <Text>Throws left: {nbrOfThrowsLeft}</Text>
-                <Text>{status}</Text>
-                <Pressable onPress={() => throwDices()}>
+                <Text style={styles.text9}>Throws left: {nbrOfThrowsLeft}</Text>
+                <Text style={styles.text10}>{status}</Text>
+                <Pressable onPress={() => throwDices()} style={styles.text11}>
                     <Text>THROW DICES</Text>
                 </Pressable>
                 <Container>
@@ -151,8 +151,8 @@ export default function Gameboard({ navigation, route }) {
                 <Container>
                     <Row>{pointsToSelectRow}</Row>
                 </Container>
-                <Text>Player name: {playerName}</Text>
-                <Text>Total points: {calculateTotalPoints()}</Text>
+                <Text style={styles.text12}>Player name: {playerName}</Text>
+                <Text style={styles.text13}>Total points: {calculateTotalPoints()}</Text>
             </View>
             <Footer />
         </>

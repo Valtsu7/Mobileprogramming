@@ -12,7 +12,7 @@ export default  styles = StyleSheet.create({
     flexDirection: 'row',
   },
   footer: {
-    marginTop: 400,
+    marginTop: 520,
     backgroundColor: 'skyblue',
     flexDirection: 'row'
   },
@@ -111,6 +111,109 @@ export default  styles = StyleSheet.create({
   }, 
 
 
+  text5: {
 
+    fontSize: 20, 
+    fontWeight: 'bold', 
+    marginLeft: 90,
+    marginBottom: 15, 
+    marginTop: -15,
+   
+
+  }, 
+
+
+  text6: {
+
+    fontSize: 16,
+    lineHeight: 22,
+    textAlign: 'center',
+    marginHorizontal: 20,
+    marginTop: 0,
+   
+
+  }, 
+
+
+  text7: {
+
+    fontSize: 22,
+    fontWeight: 'bold', 
+    textAlign: 'center',
+    marginTop: 10,
+   
+
+  }, 
+
+
+  text8: {
+
+    fontSize: 20, 
+    marginLeft: 10,
+    marginTop: 10,
+    borderWidth: 1,
+    padding: 10,
+    borderRadius: 20, 
+    alignItems: 'center', 
+    backgroundColor: '#9BDDFF', 
+   
+
+  }, 
+
+  text9: {
+
+    fontSize: 16,
+    lineHeight: 22,
+    textAlign: 'center',
+    marginTop: 50,
+   
+
+  }, 
+
+  text10: {
+
+    fontSize: 16,
+    lineHeight: 22,
+    textAlign: 'center',
+    marginTop: 5,
+   
+
+  }, 
+
+  text11: {
+
+    fontSize: 20, 
+    marginLeft: 10,
+    marginTop: 30,
+    marginBottom: 50,
+    borderWidth: 1,
+    padding: 10,
+    borderRadius: 20, 
+    alignItems: 'center', 
+    backgroundColor: '#9BDDFF', 
+   
+
+  }, 
+
+  text12: {
+
+    fontSize: 22,
+    fontWeight: 'bold', 
+    lineHeight: 22,
+    textAlign: 'center',
+    marginTop: 50,
+   
+  }, 
+
+  text13: {
+
+    fontSize: 22,
+    fontWeight: 'bold', 
+    lineHeight: 22,
+    textAlign: 'center',
+    marginTop: 15,
+   
+  }, 
+  
 
 });

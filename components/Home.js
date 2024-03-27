@@ -62,11 +62,13 @@ const handlePlayerName = (value) => {
       :
       
       <>
-      <Text>Rules of the game</Text>
-      <Text multiline="true">
+      <Text style={styles.text5} >Rules of the game</Text>
+      <Text multiline="true"
+      style={styles.text6}
+      >
       THE GAME: Upper section of the classic Yahtzee 
       dice game. You have {NBR_OF_DICES} dices and 
-      for the every dice you have {NBR_OF_THROWS} 
+      for the every dice you have 3     
       throws. After each throw you can keep dices in 
       order to get same dice spot counts as many as 
       possible. In the end of the turn you must select 
@@ -76,9 +78,10 @@ const handlePlayerName = (value) => {
 
       </Text>
 
-      <Text>Good luck, {playerName} !</Text>
+      <Text style={styles.text7}>Good luck, {playerName} !</Text>
 
      <Pressable
+     style={styles.text8}
       onPress={() => navigation.navigate('Gameboard', {player: playerName})}>
        <Text>PLAY</Text>
 
