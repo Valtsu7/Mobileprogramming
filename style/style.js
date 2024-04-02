@@ -8,12 +8,12 @@ export default  styles = StyleSheet.create({
   header: {
     marginTop: 30,
     marginBottom: 15,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#FFAA00',
     flexDirection: 'row',
   },
   footer: {
     marginTop: 520,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#FFAA00',
     flexDirection: 'row'
   },
   title: {
@@ -106,7 +106,7 @@ export default  styles = StyleSheet.create({
     padding: 10,
     borderRadius: 8, 
     alignItems: 'center', 
-    backgroundColor: '#9BDDFF', 
+    backgroundColor: '#FFAA00', 
     
   }, 
 
@@ -149,13 +149,14 @@ export default  styles = StyleSheet.create({
   text8: {
 
     fontSize: 20, 
-    marginLeft: 10,
+    marginLeft: 70,
+    marginRight: 70,
     marginTop: 10,
     borderWidth: 1,
     padding: 10,
     borderRadius: 20, 
     alignItems: 'center', 
-    backgroundColor: '#9BDDFF', 
+    backgroundColor: '#FFAA00', 
    
 
   }, 
@@ -183,14 +184,15 @@ export default  styles = StyleSheet.create({
   text11: {
 
     fontSize: 20, 
-    marginLeft: 10,
+    marginLeft: 80,
+    marginRight: 80, 
     marginTop: 30,
     marginBottom: 50,
     borderWidth: 1,
     padding: 10,
     borderRadius: 20, 
     alignItems: 'center', 
-    backgroundColor: '#9BDDFF', 
+    backgroundColor: '#FFAA00', 
    
 
   }, 
@@ -213,6 +215,30 @@ export default  styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 15,
    
+  }, 
+
+  text14: {
+
+    color: '#F11200',
+    fontSize: 16,
+    lineHeight: 22,
+    textAlign: 'center',
+    marginTop: 10, 
+   
+
+  }, 
+
+  text15: {
+    
+    color: '#F11200',
+    fontSize: 22,
+    lineHeight: 22,
+    textAlign: 'center',
+    position: 'absolute', 
+    top: -390, 
+    left: 130,
+   
+
   }, 
   
 

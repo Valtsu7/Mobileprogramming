@@ -34,7 +34,7 @@ const handlePlayerName = (value) => {
       <MaterialCommunityIcons
         name='information'
         size={90}
-        color='steelblue'
+        color='#FF0000'
         style={styles.icon1}
       />
 
